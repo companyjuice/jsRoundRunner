@@ -1,0 +1,28 @@
+{
+  "name": "jsRoundRunner",
+  "main": "jsRoundRunner.js",
+  "version": "master",
+  "authors": [
+    "Edouard Kombo <edouard.kombo@gmail.com>"
+  ],
+  "description": "Javascript counter application with many features that helps you count up and down",
+  "keywords": [
+    "jsRoundRunner",
+    "javascript",
+    "runner",
+    "javascript",
+    "round",
+    "runner",
+    "javascript",
+    "counter"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/edouardkombo/jsRoundRunner",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
