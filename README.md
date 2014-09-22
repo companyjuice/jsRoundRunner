@@ -25,8 +25,8 @@ This application has been built in native Javascript.
     var runner = new jsRoundRunner();
 
     //Set parameters
-    runner.startsAt                 = startsAt;
-    runner.endsAt                   = endsAt;
+    runner.startsAt                 = 0;
+    runner.endsAt                   = 15;
     runner.allowMinutesAndSeconds   = false;
 
     if (runner.startsAt < runner.endsAt) {
