@@ -2,7 +2,13 @@ Js Round Runner
 ===============
 
 Javascript counter application with many features that helps you count up and down.
-You can add additional text to counter, change counter color at a specific time
+It allows you to:
+- Count up and down
+- Add text to counter view
+- Change counter color at a specific time
+- Format counter to HHMMSS
+- Trigger a function at the end of the counter
+
 This application has been built in native Javascript.
 
 
