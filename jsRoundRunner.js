@@ -112,7 +112,7 @@ jsRoundRunner.prototype = {
         this.showCounter(this.substituteTimer);
         
         //Reset substituteTime to initial value
-        this.substituteTimer = (this.startsAt > this.endsAt) ? this.endsAt : this.startsAt;
+        this.substituteTimer = this.startsAt;
         
         //reset vars
         this.allowMinutesAndSeconds = false;
