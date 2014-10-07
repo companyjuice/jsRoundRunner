@@ -93,7 +93,16 @@ jsRoundRunner.prototype = {
      */
     operator: function(value)
     {
-        return (this.startsAt > this.endsAt) ? value - 1 : value + 1 ;       
+        var result = "";
+        
+        if (this.startsAt > this.endsAt) {
+            result = value - 1;
+        } else if (this.startsAt < this.endsAt) {
+            result = value + 1;            
+        } else {
+            result = 0;
+        }
+        return result ;       
     },    
     
     /**
@@ -230,6 +239,9 @@ jsRoundRunner.prototype = {
      */
     callbackMethod: function()
     {
-        return this.callBack();
+        if (this.callBack !== '') {
+            var fn = window[this.callBack];
+            return fn();
+        }        
     }
 };

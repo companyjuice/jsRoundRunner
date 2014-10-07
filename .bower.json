@@ -1,0 +1,36 @@
+{
+  "name": "jsRoundRunner",
+  "main": "jsRoundRunner.js",
+  "authors": [
+    "Edouard Kombo <edouard.kombo@gmail.com>"
+  ],
+  "description": "Javascript counter application with many features that helps you count up and down",
+  "keywords": [
+    "jsRoundRunner",
+    "javascript",
+    "runner",
+    "javascript",
+    "round",
+    "runner",
+    "javascript",
+    "counter"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/edouardkombo/jsRoundRunner",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "d750894564",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d7508945643bf1fa16497fff44b52f1f14b674ee"
+  },
+  "_source": "git://github.com/edouardkombo/jsRoundRunner.git",
+  "_target": "*",
+  "_originalSource": "js-round-runner"
+}

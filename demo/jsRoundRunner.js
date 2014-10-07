@@ -230,6 +230,9 @@ jsRoundRunner.prototype = {
      */
     callbackMethod: function()
     {
-        return this.callBack();
+        if (this.callBack !== '') {
+            var fn = window[this.callBack];
+            return fn();
+        }        
     }
 };
